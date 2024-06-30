@@ -15,8 +15,3 @@ function hexToRgb(hex: string): { r: number, g: number, b: number } | null {
 
     return { r, g, b };
 }
-
-console.log(hexToRgb('#FF9933'));
-console.log(hexToRgb('#ff9933'));
-console.log(hexToRgb('#FFF'));
-console.log(hexToRgb('#000'));
